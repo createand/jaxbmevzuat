@@ -1,7 +1,0 @@
-com/yildirim/mevzuat/test/CreateXMLApp.class
-com/yildirim/mevzuat/model/Mevzuat.class
-com/yildirim/mevzuat/model/AltBent.class
-com/yildirim/mevzuat/servlet/CreateMevzuatServlet.class
-com/yildirim/mevzuat/controller/MevzuatController.class
-com/yildirim/mevzuat/controller/MevzuatIndirController.class
-com/yildirim/mevzuat/model/Bent.class
