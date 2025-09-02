@@ -12,6 +12,10 @@
 		<hibernate.version>4.3.5.Final</hibernate.version>
 	</properties>
   <build>
+  
+   <!-- WAR dosya ismi (finalName ile aynı) -->
+   <finalName>jaxbmevzuat</finalName>
+   
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -19,7 +23,11 @@
         <version>3.10.1</version>
         <configuration>
           <source>1.8</source>
-          <target>1.8</target>
+          <target>1.8</target>         
+                    
+     <!-- WAR çıktı dizini -->
+     <outputDirectory>${project.basedir}</outputDirectory>
+          
         </configuration>
       </plugin>
       <plugin>
